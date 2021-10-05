@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.topNav{
+    background: #5F5F5F;
+    width: 100%;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+}
+.navLeft a{
+    color: white;
+    text-decoration: none;
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.13px;
+    margin-right: 20px;
+}
+.navRight{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navRight h4{
+    margin-right: 40px;
+    height: 25px;
+    color: wheat;
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24.61px;
+    border-bottom: 1px solid wheat;
+}
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.searchBar .search{
+    height: 32px;
+    width: 257px;
+    border: none;
+    background: #f6f6f6;
+}
+.searchBar .search:focus{
+    border: 1px solid rgb(255, 149, 149);
+    outline: none;
+    padding-left: 20px;
+}
+.searchImg{
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    width: 23.17px;
+    height: 24px;
+}
+.bottomNav{
+    background: #8B8B8B;
+    width: 100%;
+    height: 142px;
+}
+.bottomNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 65px;
+}
+.firstCol a{
+    width: 320px;
+    height: 49px;
+    text-decoration: none;
+    color: black;
+    font-size: 42px;
+    line-height: 49.22px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+.secondCol{
+   margin-left: 0;
+}
+.secondCol a{
+    width: 86px;
+    height: 39px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    line-height: 37.5px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+.thirdCol{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.thirdCol a{
+    width: 200px;
+    height: 38px;
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    line-height: 37.5px;
+    font-weight: 500;
+    font-family: Roboto;
+}
+
+.thirdColDiv{
+    width: 120px;
+    height: 40px;
+    background: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgb(65, 65, 65);
+}
+.thirdColDiv:hover{
+    background-color: rgb(255, 136, 136);
+    color: white;
+}
+.thirdColDiv h4{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28.13px;
+}
+
+
+.sliderSection{
+    width: 100%;
+    height: 470px;
+    background: #BCBCBC;
+    position: relative;
+}
+.sliderSectionMain{
+    width: 500px;
+    position: absolute;
+    bottom: 60px;
+    left: 110px;
+}
+.sliderSectionMain a{
+    color: black;
+    text-decoration: none;
+    width: 150px;
+    line-height: 28.13px;
+}
+.sliderSectionMain h3{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.sliderSectionMain h5{
+    font-size: 24px;
+    line-height: 28.13px;
+    font-weight: 400;
+    font-family: ROboto;
+    margin-bottom: 40px;
+}
+
+.secondSection{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.secondSectionWrapper{
+    width: 65%;
+    margin: 0 auto;
+    padding: 0;
+}
+.tabWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.secondSectionHeader{
+    transform: translateY(-30px);
+    margin-left: -40px;
+}
+.secondSectionHeader{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37.5px;
+}
+.mainTab{
+    width: 306px;
+    height: 150px;
+    background: #c4c4c4;
+    margin-right: 30px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mainTab:hover{
+    box-shadow: 6px 6px #8f8f8f;
+}
+.tab1 button{
+    background: #A0A0A0;
+    width: 306px;
+    height: 52px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28.13px;
+    margin-top: 30px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 0 3px 5px rgb(58, 58, 58);
+}
+.tab1 button:hover{
+    background: #525252;
+    color: #c4c3c3;
+}
+.tab3 h5{
+    width: 286px;
+    margin-top: 25px;
+    font-size: 20px;
+    text-align: right;
+    margin-right: -15px;
+    position: relative;
+}
+.tab3 h5::after{
+    content: '';
+    position: absolute;
+    bottom: 2px;
+    right: 0;
+    width: 230px;
+    height: 1px;
+    background: black;
+}
